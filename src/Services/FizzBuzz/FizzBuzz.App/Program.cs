@@ -8,7 +8,9 @@ namespace FizzBuzz.App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FizzBuzz fizzBuzz = new FizzBuzz();
+
+            fizzBuzz.Execute();
         }
     }
 }
