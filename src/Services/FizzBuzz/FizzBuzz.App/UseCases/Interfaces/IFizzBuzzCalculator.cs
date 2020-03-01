@@ -2,6 +2,6 @@
 {
     public interface IFizzBuzzCalculator
     {
-        bool Calculate(int i);
+        string Calculate(int i);
     }
 }

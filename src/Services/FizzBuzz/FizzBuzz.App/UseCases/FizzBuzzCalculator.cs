@@ -5,7 +5,7 @@ namespace FizzBuzz.App.UseCases
 {
     public class FizzBuzzCalculator : IFizzBuzzCalculator
     {
-        public bool Calculate(int i)
+        public string Calculate(int i)
         {
             throw new NotImplementedException();
         }
